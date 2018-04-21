@@ -1,0 +1,15 @@
+Source: grub2-theme-nomad
+Section: main
+Priority: optional
+Maintainer: Alexis Lopez Zubieta <azubieta90@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+#Homepage: <insert the upstream URL, if relevant>
+Vcs-Git: https://github.com/nomad-shell/nomad-grub-theme.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/grub2-theme-nomad.git
+
+Package: grub2-theme-nomad
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, grub-common
+Description: GRand Unified Bootloader, version 2 (nomad theme)
+ This is the default theme for GRUB's graphical menu.
