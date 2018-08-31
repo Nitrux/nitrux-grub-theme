@@ -1,4 +1,4 @@
-# Nomad GRUB Theme [![Build Status](https://travis-ci.org/nomad-desktop/nomad-grub-theme.svg?branch=master)](https://travis-ci.org/nomad-desktop/nomad-grub-theme)
+# Nomad GRUB Theme [![Build Status](https://travis-ci.org/Nitrux/nomad-grub-theme.svg?branch=master)](https://travis-ci.org/Nitrux/nomad-grub-theme)
 
 This is the repository for the GRUB2 Theme used in Nitrux.
 
