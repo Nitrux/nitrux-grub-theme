@@ -1,3 +1,9 @@
+grub2-theme-nitrux (1.2.2) nxos; urgency=medium
+
+  * Update
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 25 Jun 2019 23:16:00 -0500
+
 grub2-theme-nitrux (1.2.1) nxos; urgency=medium
 
   * Change package name.
