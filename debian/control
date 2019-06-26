@@ -1,15 +1,12 @@
-Source: grub2-theme-nomad
+Source: grub2-theme-nitrux
 Section: main
 Priority: optional
-Maintainer: Alexis Lopez Zubieta <azubieta90@gmail.com>
+Maintainer: Uri Herrera <uri_herrera@nxos.org>
 Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.6
-#Homepage: <insert the upstream URL, if relevant>
-Vcs-Git: https://github.com/nomad-shell/nomad-grub-theme.git
-#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/grub2-theme-nomad.git
 
-Package: grub2-theme-nomad
+Package: grub2-theme-nitrux
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, grub-common
-Description: GRand Unified Bootloader, version 2 (nomad theme)
+Description: GRand Unified Bootloader, version 2 (Nitrux theme)
  This is the default theme for GRUB's graphical menu.

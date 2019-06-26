@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: grub2-theme-nomad
-Source: http://github.com/nomad-shell/nomad-grub-theme
+Upstream-Name: grub2-theme-nitrux
+Source: https://github.com/Nitrux/nitrux-grub-theme
 
 Files: *
 Copyright: 2017 Nitrux Latinoameriaca
