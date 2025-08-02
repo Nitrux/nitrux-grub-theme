@@ -1,4 +1,4 @@
-# Nitrux GRUB Theme [![Build Status](https://travis-ci.org/Nitrux/nitrux-grub-theme.svg?branch=master)](https://travis-ci.org/Nitrux/nitrux-grub-theme)
+# Nitrux GRUB Theme
 
 This is the repository for the GRUB2 Theme used in Nitrux.
 
