@@ -1,0 +1,71 @@
+# SPDX-License-Identifier: BSD-3-Clause
+# Copyright 2026 <Nitrux Latinoamericana S.C. <hello@nxos.org>>
+
+title-text: ""
+title-font: "Terminus 14"
+
+message-font: "Terminus 14"
+message-color: "#212121"
+message-bg-color: "#B0BEC5"
+
+desktop-image: "grub_background.png"
+
+terminal-font: "Terminus 14"
+
++ label {
+    width = 392
+    top = 50%-196
+    left = 50%-196
+    text = "Select Operating System"
+    font = "Terminus 18"
+    color = "#B0BEC5"
+}
+
++ boot_menu {
+    item_font = "Terminus 14"
+    left = 50%-200
+    width = 400
+    top = 50%-150
+    height = 300
+    item_color = "#212121"
+    selected_item_color = "#212121"
+    icon_width = 4
+    icon_height = 0
+    item_height = 33
+    item_padding = 1
+    item_icon_space = 0
+    item_spacing = 1
+    selected_item_pixmap_style = "highlight_*.png"
+}
+
++ progress_bar {
+    id = "__timeout__"
+    left = 0
+    top = 100%-32
+    width = 100%
+    height = 32
+    show_text = false
+    bar_style = "progress_bar_*.png"
+    highlight_style = "progress_bar_hl_*.png"
+}
+
++ progress_bar {
+    id = "__timeout__"
+    left = 100%-126
+    top = 100%-32
+    height = 32
+    show_text = true
+    font = "Terminus 12"
+    text_color = "#212121"
+    align = "right"
+    text = "@TIMEOUT_NOTIFICATION_MIDDLE@"
+    bar_style = "progress_bar2_*.png"
+}
+
++ label {
+    top = 100%-24
+    left = 16
+    text = "[Enter] Boot the selected OS [C] GRUB Command Line"
+    font = "Terminus 12"
+    color = "#212121"
+}
